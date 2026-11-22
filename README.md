@@ -1,6 +1,6 @@
 # Tic Tac Toe Web Application
 
-An interactive, responsive Tic-Tac-Toe web game built with pure standard HTML5, CSS3, and vanilla JavaScript as part of the **Prodigy InfoTech Web Development Internship (Task 03)**.
+An interactive, responsive Tic-Tac-Toe web game built with pure standard HTML5, CSS3, and vanilla JavaScript
 
 ---
 
@@ -34,31 +34,6 @@ PRODIGY_WD_03/
 ├── style.css     # Responsive styles, grid layout, and marker aesthetics
 ├── script.js     # State tracking, win detection, AI logic, and timer automation
 └── README.md     # Project documentation
-```
-
----
-
-## 🚀 Getting Started
-
-No build tools or package managers required.
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<your-username>/PRODIGY_WD_03.git
-   ```
-2. **Navigate into the project folder**:
-   ```bash
-   cd PRODIGY_WD_03
-   ```
-3. **Launch the application**:
-   - Double-click `index.html` to open it in any web browser, OR
-   - Run a local server with VS Code Live Server or Python:
-     ```bash
-     python -m http.server 8000
-     ```
-     Then navigate to `http://localhost:8000` in your browser.
-
----
 
 ## 🕹️ How to Play
 
@@ -77,8 +52,5 @@ No build tools or package managers required.
 - **CSS3**: CSS Grid, Flexbox, responsive media queries
 - **Vanilla JavaScript (ES6+)**: Event delegation, DOM manipulation, state machines, and timer management
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License — free for educational and personal use.
+## How to Run
+Simply open index.html in any modern web browser.
