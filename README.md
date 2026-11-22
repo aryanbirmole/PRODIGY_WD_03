@@ -1,6 +1,6 @@
 # Tic Tac Toe Web Application
 
-An interactive, responsive Tic-Tac-Toe web game built with pure standard HTML5, CSS3, and vanilla JavaScript
+An interactive, responsive Tic-Tac-Toe web game built with pure standard HTML5, CSS3, and vanilla JavaScript.
 
 ---
 
@@ -34,6 +34,9 @@ PRODIGY_WD_03/
 ├── style.css     # Responsive styles, grid layout, and marker aesthetics
 ├── script.js     # State tracking, win detection, AI logic, and timer automation
 └── README.md     # Project documentation
+```
+
+---
 
 ## 🕹️ How to Play
 
@@ -46,11 +49,14 @@ PRODIGY_WD_03/
 
 ---
 
+## 🚀 How to Run
+
+Simply open `index.html` in any modern web browser.
+
+---
+
 ## 🛠️ Built With
 
 - **HTML5**: Semantic document structure
 - **CSS3**: CSS Grid, Flexbox, responsive media queries
 - **Vanilla JavaScript (ES6+)**: Event delegation, DOM manipulation, state machines, and timer management
-
-## How to Run
-Simply open index.html in any modern web browser.
