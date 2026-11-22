@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <header class="game-header">
+            <h1 class="game-title">Tic Tac Toe</h1>
+            <div class="mode-selector">
+                <button id="pvpBtn" class="mode-btn active">2 Players</button>
+                <button id="aiBtn" class="mode-btn">vs Computer</button>
+            </div>
+        </header>
+
+        <div class="game-layout">
+            <div class="side-card side-x">
+                <span class="player-title">Player X</span>
+                <span id="scoreX" class="score-number">0</span>
+            </div>
+
+            <div class="center-play-area">
+                <div id="statusBanner" class="status-banner">Player X's Turn</div>
+
+                <div id="board" class="board-grid">
+                    <button class="cell" data-index="0" aria-label="Cell 1"></button>
+                    <button class="cell" data-index="1" aria-label="Cell 2"></button>
+                    <button class="cell" data-index="2" aria-label="Cell 3"></button>
+                    <button class="cell" data-index="3" aria-label="Cell 4"></button>
+                    <button class="cell" data-index="4" aria-label="Cell 5"></button>
+                    <button class="cell" data-index="5" aria-label="Cell 6"></button>
+                    <button class="cell" data-index="6" aria-label="Cell 7"></button>
+                    <button class="cell" data-index="7" aria-label="Cell 8"></button>
+                    <button class="cell" data-index="8" aria-label="Cell 9"></button>
+                </div>
+            </div>
+
+            <div class="side-card side-o">
+                <span id="playerOTag" class="player-title">Player O</span>
+                <span id="scoreO" class="score-number">0</span>
+            </div>
+        </div>
+
+        <div class="summary-stats">
+            <div class="stat-pill">
+                <span class="stat-label">Ties:</span>
+                <span id="scoreTies" class="stat-count">0</span>
+            </div>
+            <div class="stat-pill">
+                <span class="stat-label">Total Games:</span>
+                <span id="scoreTotal" class="stat-count">0</span>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <button id="restartBtn" class="large-btn btn-new-game">New Game</button>
+            <button id="resetScoresBtn" class="large-btn btn-reset-scores">Reset Scores</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
